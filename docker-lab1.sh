@@ -42,7 +42,6 @@ sudo add-apt-repository \
    $(lsb_release -cs) \
    stable"
 
-
 # INSTALL DOCKER ENGINE
 echo "-------------------------------------------4. INSTALL DOCKER ENGINE"
 echo
@@ -109,7 +108,7 @@ echo "------------------------------------------------------"
 
 else
 echo
-echo "************************** This is not Ubuntu OS. Aborting.... ********************************"
+echo "********************* This is not Ubuntu OS. Aborting Installation.... ***************************"
 exit
 fi
 
